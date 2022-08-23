@@ -1,5 +1,5 @@
-let n1=parseInt(prompt("Operand 1:"));
-let n2=parseInt(prompt("Operand 2:"));
+let n1=+(prompt("Operand 1:"));
+let n2=+(prompt("Operand 2:"));
 let op=prompt("Operator:");
 if(op=='+')
 {
