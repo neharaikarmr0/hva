@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f4f4f4;
+    color : rgb(0, 0, 8);
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    /* same as above */
+    font : normal  14px Arial;
+    line-height: 1.6em;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color: green;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:blue;
+}
+a:visited{
+    color:palevioletred;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.clr{
+    clear:both;
+}
+.box-1{
+    background-color: #333;
+    color:#fff;
+    border:5px red solid;
+
+    /* same as above */
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border-right:5px red solid;
+    border-left:5px red solid;
+    border-width: 5px;
+    border-bottom-width: 10px;
+    border-top-style:dotted;
+
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+
+    /* same as above*/
+    padding:20px;
+
+    margin-top:20px;
+    margin:20px;
+
+}
+
+.box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: oblique;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    color:aqua;
+}
+
+.box-2{
+    border: 3px blue dotted;
+    padding:10px;
+    margin:5px;
+    color: black;
+}
+
+.categories{
+    border: 1px #333 solid;
+    padding: 3px;
+    border-radius:5px;
+}
+
+.categories h2{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.categories ul{
+    list-style: square;
+    padding-left: 20px;
+}
+
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
+
+.myform{
+    padding:20px;
+}
+
+.myform.form-group{
+    padding-bottom: 15px;
+}
+
+.myform label{
+    display:block;
+}
+.myform input{
+    padding:8px;
+    width:100%;
+}
+
+.myform input[type="submit"]{
+    background-color: black;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button{
+    background-color: black;
+    color:#fff;
+    padding: 5px 10px;
+    border: none;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #666;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+}
+
+.sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border: 1px solid #000;
+    margin-top:30px;
+    position: relative;
+    background-image: url('../img/the.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top:40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:60px;
+}
+
+.fix-me{
+    position: fixed;
+    top:40px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: rgb(36, 100, 146);
+}
+
+.my-list li:nth-child(4){
+    background: rgb(4, 162, 41);
+}
+
+.my-list li:nth-child(even){
+    background: rgb(91, 3, 35);
+}
