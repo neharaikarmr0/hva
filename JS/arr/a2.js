@@ -6,3 +6,5 @@ alert(arr.shift());
 arr.unshift('o');
 alert(arr);
 
+arr.push("neha");
+arr.unshift("sona");
