@@ -7,7 +7,7 @@ alert(arr);
 
 let n=[0,9,8,7,6];
 n.splice(0,3,4,5);   //from index 0 , remove 3 elements and insert 4,5
-alert(n);
+alert(n);  //7,6,4,5
 
 let m=[0,9,8,7,6];
 let removed = m.splice(0,2); 
