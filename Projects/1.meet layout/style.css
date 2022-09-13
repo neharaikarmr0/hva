@@ -1,0 +1,64 @@
+body{
+    background: rgb(27, 26, 26);
+}
+
+.container{
+	display: flex;
+    margin: 100px 7px;
+    flex-direction: row;
+}
+
+.container-item{
+    height: 350px;
+    width: 500px;
+    margin: 3px;
+    border-radius: 5px;
+    align-items: baseline;
+    color:white;
+    text-indent: 0.6em;
+    
+}
+
+.name{
+    font-size: 15px;
+    position: absolute;
+    padding-top: 320px;
+    float: left;
+}
+.mcv {
+    width: 18px;
+    height: 23px;
+    float: right;
+    margin: 2px;
+    background: rgb(79, 82, 82);
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.prof{
+    width: 170px;
+    height: 170px;
+    margin: 95px;
+    border-radius: 50%;
+}
+  
+.center{
+    display: flex;
+    align-items: baseline;
+    justify-items: center;
+    
+}
+.c{
+    display: flex; 
+    align-items: center;
+    justify-items: space-between;
+    width: 25px;
+    height: 30px;
+}
+
+
+.r{
+    width: 32px;
+    height: 40px;
+   
+}
