@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1));
+
+}
+.weather-box{
+    background-color: #a7a9d9;
+    padding: 20px;
+    border: 1px solid blanchedalmond;
+    border-radius:20px ;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1{
+   text-align: center;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search{
+    padding: 8px;
+    border: 3px;
+    border-radius: 8px;
+    margin-right: 6px;
+    border: 0.5px solid black;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px;
+    border: 3px;
+    border: 0.5px solid black;
+}
+
+.city,.temp,.description, .humidity, .wind{
+    font-size: 18px;
+}
