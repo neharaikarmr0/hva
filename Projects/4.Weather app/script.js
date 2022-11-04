@@ -18,9 +18,9 @@ button.addEventListener("click", function(){
 
       
       description.innerHTML = "Description: "+descValue;
-      temp.innerHTML = tempvalue + " K";
-      humidity.innerHTML = humValue + "%";
-      wind.innerHTML  = windValue + "km/h";
+      temp.innerHTML = "Temperature: " + tempvalue + " K";
+      humidity.innerHTML = "Humidity: " + humValue + "%";
+      wind.innerHTML  = "Wind Speed: " + windValue + "km/h";
       inputValue.value= "";
     })
 
