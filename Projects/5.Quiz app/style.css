@@ -1,0 +1,41 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to Right, rgb(44, 62, 80), rgb(189, 195, 199));
+    background-color: #34495e;
+}
+.box{
+    
+    width: 400px;
+    height: 250px;
+    background-color: #7f8c8d;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid blanchedalmond;
+   
+}
+
+.row{
+    padding: 10px;
+    
+}
+
+.submit{
+    float: right;
+    border: 0;
+    border-radius: 3px;
+    font-size: medium;
+    padding: 8px;
+    border-bottom: 3px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.submit:hover{
+    background-color: rgb(131, 149, 167);
+    transition: ease-in-out;
+}
